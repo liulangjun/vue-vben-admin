@@ -5,6 +5,7 @@
 </template>
 
 <script lang="ts">
+  console.log(123);
   import { defineComponent } from 'vue';
   import { ConfigProvider } from 'ant-design-vue';
   import { createBreakpointListen } from '/@/hooks/event/useBreakpoint';
